@@ -1,0 +1,4461 @@
+# Copyright (C) 2021 iqonic
+# This file is distributed under the same license as the KiviCare - Clinic & Patient Management System (EHR) plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: KiviCare - Clinic & Patient Management System (EHR) 2.2."
+"7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kivicare-pot-"
+"file\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-30T12:52:21+05:30\n"
+"PO-Revision-Date: 2021-11-09 11:05+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: kc-lang\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1"
+
+#. Plugin Name of the plugin
+msgid "KiviCare - Clinic & Patient Management System (EHR)"
+msgstr "KiviCare - Clinic & Patient Management System (EHR-french)"
+
+#. Plugin URI of the plugin
+msgid "https://iqonic.design"
+msgstr ""
+
+#. Description of the plugin
+msgid "KiviCare is an impressive clinic and patient management plugin (EHR)."
+msgstr ""
+
+#. Author of the plugin
+msgid "iqonic"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://iqonic.design/"
+msgstr ""
+
+#: app/controllers/api/KCApiHomeController.php:46
+#: app/controllers/KCHomeController.php:57
+msgid "Datatype not found"
+msgstr ""
+
+#: app/controllers/api/KCApiHomeController.php:133
+#: app/controllers/KCHomeController.php:326
+#: app/controllers/KCPatientDashboardWidget.php:307
+msgid "Datatype found"
+msgstr ""
+
+#: app/controllers/api/KCApiHomeController.php:151
+#: app/controllers/KCDoctorController.php:98
+#: app/controllers/KCSetupController.php:436
+#: app/controllers/KCSetupController.php:455
+msgid "No doctors found"
+msgstr ""
+
+#: app/controllers/api/KCApiHomeController.php:181
+#: app/controllers/KCClinicController.php:64
+#: app/controllers/KCDoctorController.php:134
+msgid "Doctors list"
+msgstr ""
+
+#: app/controllers/api/KCAuthController.php:67
+#: app/controllers/KCAuthController.php:91
+msgid "Incorrect username and password"
+msgstr ""
+
+#: app/controllers/api/KCAuthController.php:77
+#: app/controllers/KCAuthController.php:110
+msgid "Logged in successfully"
+msgstr ""
+
+#: app/controllers/api/KCBookAppointmentController.php:53
+#: app/controllers/KCBookAppointmentWidgetController.php:163
+#: app/controllers/KCPatientDashboardWidget.php:348
+msgid "Sign in to book appointment"
+msgstr ""
+
+#: app/controllers/api/KCBookAppointmentController.php:59
+#: app/controllers/KCBookAppointmentWidgetController.php:212
+#: app/controllers/KCPatientDashboardWidget.php:354
+msgid "User must be patient to book appointment"
+msgstr ""
+
+#: app/controllers/api/KCBookAppointmentController.php:86
+#: app/controllers/KCBookAppointmentWidgetController.php:294
+#: app/controllers/KCPatientDashboardWidget.php:425
+msgid "Appointment has been booked successfully"
+msgstr ""
+
+#: app/controllers/api/KCPatientAppointmentBooking.php:49
+#: app/controllers/KCAppointmentController.php:177
+#: app/controllers/KCPatientEncounterController.php:185
+#: resources/assets/lang/temp.php:581
+msgid "Status is required"
+msgstr ""
+
+#: app/controllers/api/KCPatientAppointmentBooking.php:50
+#: app/controllers/KCAppointmentController.php:178
+#: app/controllers/KCPatientEncounterController.php:186
+#: resources/assets/lang/temp.php:605 resources/assets/lang/temp.php:867
+msgid "Patient is required"
+msgstr ""
+
+#: app/controllers/api/KCPatientAppointmentBooking.php:51
+#: app/controllers/KCAppointmentController.php:179
+#: app/controllers/KCAppointmentController.php:541
+#: app/controllers/KCPatientEncounterController.php:187
+msgid "Clinic is required"
+msgstr ""
+
+#: app/controllers/api/KCPatientAppointmentBooking.php:52
+#: app/controllers/KCAppointmentController.php:180
+#: app/controllers/KCAppointmentController.php:542
+#: app/controllers/KCPatientEncounterController.php:188
+#: resources/assets/lang/temp.php:576
+msgid "Doctor is required"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:39
+#: app/controllers/KCAppointmentController.php:159
+#: app/controllers/KCAppointmentController.php:402
+#: app/controllers/KCAppointmentController.php:472
+#: app/controllers/KCClinicController.php:36
+#: app/controllers/KCClinicController.php:147
+#: app/controllers/KCClinicController.php:300
+#: app/controllers/KCClinicController.php:545
+#: app/controllers/KCClinicScheduleController.php:48
+#: app/controllers/KCCustomFieldController.php:36
+#: app/controllers/KCCustomFieldController.php:66
+#: app/controllers/KCCustomFieldController.php:126
+#: app/controllers/KCCustomFieldController.php:217
+#: app/controllers/KCDoctorController.php:41
+#: app/controllers/KCDoctorController.php:147
+#: app/controllers/KCDoctorController.php:473
+#: app/controllers/KCDoctorController.php:583
+#: app/controllers/KCPatientBillController.php:45
+#: app/controllers/KCPatientBillController.php:89
+#: app/controllers/KCPatientBillController.php:242
+#: app/controllers/KCPatientBillController.php:325
+#: app/controllers/KCPatientBillController.php:431
+#: app/controllers/KCPatientBillController.php:519
+#: app/controllers/KCPatientController.php:44
+#: app/controllers/KCPatientController.php:186
+#: app/controllers/KCPatientController.php:385
+#: app/controllers/KCPatientController.php:468
+#: app/controllers/KCPatientEncounterController.php:44
+#: app/controllers/KCPatientEncounterController.php:158
+#: app/controllers/KCPatientEncounterController.php:250
+#: app/controllers/KCPatientEncounterController.php:341
+#: app/controllers/KCPatientEncounterController.php:428
+#: app/controllers/KCPatientMedicalHistoryController.php:40
+#: app/controllers/KCPatientMedicalHistoryController.php:87
+#: app/controllers/KCPatientMedicalHistoryController.php:158
+#: app/controllers/KCPatientMedicalRecordsController.php:36
+#: app/controllers/KCPatientMedicalRecordsController.php:100
+#: app/controllers/KCPatientMedicalRecordsController.php:171
+#: app/controllers/KCPatientMedicalRecordsController.php:260
+#: app/controllers/KCPatientPrescriptionController.php:36
+#: app/controllers/KCPatientPrescriptionController.php:95
+#: app/controllers/KCPatientPrescriptionController.php:179
+#: app/controllers/KCPatientPrescriptionController.php:244
+#: app/controllers/KCReceptionistController.php:36
+#: app/controllers/KCReceptionistController.php:124
+#: app/controllers/KCReceptionistController.php:290
+#: app/controllers/KCReceptionistController.php:371
+#: app/controllers/KCServiceController.php:173
+#: app/controllers/KCServiceController.php:289
+#: app/controllers/KCServiceController.php:386
+#: app/controllers/KCStaticDataController.php:47
+#: app/controllers/KCStaticDataController.php:100
+#: app/controllers/KCStaticDataController.php:165
+#: app/controllers/KCStaticDataController.php:233
+msgid "You don't have a permission to access"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:135
+msgid "No appointments found"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:143
+msgid "Appointment list"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:232
+msgid "Appointment has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:415
+#: app/controllers/KCAppointmentController.php:446
+#: app/controllers/KCAuthController.php:56
+#: app/controllers/KCClinicController.php:318
+#: app/controllers/KCClinicController.php:519
+#: app/controllers/KCClinicController.php:556
+#: app/controllers/KCClinicController.php:576
+#: app/controllers/KCClinicScheduleController.php:155
+#: app/controllers/KCClinicScheduleController.php:200
+#: app/controllers/KCClinicScheduleController.php:241
+#: app/controllers/KCCustomFieldController.php:136
+#: app/controllers/KCCustomFieldController.php:193
+#: app/controllers/KCCustomFieldController.php:228
+#: app/controllers/KCDoctorController.php:495
+#: app/controllers/KCDoctorController.php:562
+#: app/controllers/KCDoctorController.php:600
+#: app/controllers/KCDoctorController.php:623
+#: app/controllers/KCHomeController.php:342
+#: app/controllers/KCPatientBillController.php:253
+#: app/controllers/KCPatientBillController.php:300
+#: app/controllers/KCPatientBillController.php:442
+#: app/controllers/KCPatientBillController.php:482
+#: app/controllers/KCPatientBillController.php:530
+#: app/controllers/KCPatientController.php:397
+#: app/controllers/KCPatientController.php:444
+#: app/controllers/KCPatientController.php:479
+#: app/controllers/KCPatientController.php:505
+#: app/controllers/KCPatientEncounterController.php:260
+#: app/controllers/KCPatientEncounterController.php:311
+#: app/controllers/KCPatientEncounterController.php:352
+#: app/controllers/KCPatientEncounterController.php:389
+#: app/controllers/KCPatientEncounterController.php:503
+#: app/controllers/KCPatientMedicalHistoryController.php:169
+#: app/controllers/KCPatientMedicalRecordsController.php:182
+#: app/controllers/KCPatientMedicalRecordsController.php:235
+#: app/controllers/KCPatientMedicalRecordsController.php:271
+#: app/controllers/KCPatientPrescriptionController.php:190
+#: app/controllers/KCPatientPrescriptionController.php:220
+#: app/controllers/KCPatientPrescriptionController.php:255
+#: app/controllers/KCReceptionistController.php:307
+#: app/controllers/KCReceptionistController.php:343
+#: app/controllers/KCReceptionistController.php:382
+#: app/controllers/KCReceptionistController.php:399
+#: app/controllers/KCServiceController.php:301
+#: app/controllers/KCServiceController.php:362
+#: app/controllers/KCServiceController.php:397
+#: app/controllers/KCStaticDataController.php:176
+#: app/controllers/KCStaticDataController.php:209
+#: app/controllers/KCStaticDataController.php:244
+#: app/controllers/KCStaticDataController.php:260
+msgid "Data not found"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:443
+msgid "Appointment has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:511
+msgid "Appointment status has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:574
+msgid "Appointment slots"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:854
+#: app/controllers/KCAppointmentController.php:922
+#: app/controllers/KCPatientDashboardWidget.php:182
+#: app/controllers/KCPatientDashboardWidget.php:192
+#: resources/assets/lang/temp.php:567
+msgid "Appointments"
+msgstr ""
+
+#: app/controllers/KCAppointmentController.php:904
+#: app/controllers/KCPatientDashboardWidget.php:175
+msgid "No appointment found"
+msgstr ""
+
+#: app/controllers/KCAuthController.php:52
+msgid "Patient profile data"
+msgstr ""
+
+#: app/controllers/KCAuthController.php:64
+msgid "Patient not logged in"
+msgstr ""
+
+#: app/controllers/KCAuthController.php:99
+msgid "User not found user must be a patient."
+msgstr ""
+
+#: app/controllers/KCAuthController.php:140
+msgid "Email is already exist"
+msgstr ""
+
+#: app/controllers/KCAuthController.php:188
+msgid "Patient registration successfully."
+msgstr ""
+
+#: app/controllers/KCAuthController.php:191
+msgid "Patient registration not successfully."
+msgstr ""
+
+#: app/controllers/KCAuthController.php:255
+#: app/controllers/KCHomeController.php:41
+msgid "Logout successfully."
+msgstr ""
+
+#: app/controllers/KCBookAppointmentWidgetController.php:104
+#: app/controllers/KCBookAppointmentWidgetController.php:110
+msgid "Doctor details"
+msgstr ""
+
+#: app/controllers/KCBookAppointmentWidgetController.php:137
+#: app/controllers/KCPatientDashboardWidget.php:327
+msgid "Time slots"
+msgstr ""
+
+#: app/controllers/KCBookAppointmentWidgetController.php:140
+#: app/controllers/KCPatientDashboardWidget.php:330
+msgid "Doctor is not available for this date"
+msgstr ""
+
+#: app/controllers/KCBookAppointmentWidgetController.php:297
+#: app/controllers/KCPatientDashboardWidget.php:428
+msgid "Appointment has not been booked"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:56
+msgid "No clinics found"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:261
+#: app/controllers/KCSetupController.php:68
+msgid "Clinic has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:267
+msgid "Clinic has not been saved successfully"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:383
+#: app/controllers/KCClinicController.php:513
+msgid "Clinic data"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:562
+msgid "You can not delete the default clinic."
+msgstr ""
+
+#: app/controllers/KCClinicController.php:573
+msgid "Clinic has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:667
+msgid "Clinic session has not been saved successfully"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:676
+#: app/controllers/KCSetupController.php:410
+msgid "Clinic session has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCClinicController.php:698
+msgid "Clinic session has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:87
+msgid "No clinic schedule found"
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:95
+#: app/controllers/KCServiceController.php:158
+msgid "Service list"
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:134
+msgid "Clinic holiday scheduled successfully."
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:138
+msgid "Clinic holiday schedule updated successfully."
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:196
+#: app/controllers/KCStaticDataController.php:205
+msgid "Static data"
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:238
+msgid "Clinic schedule has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCClinicScheduleController.php:271
+#: app/controllers/KCStaticDataController.php:290
+msgid "Terms & Condition has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:47
+msgid "No custom fields found"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:55
+msgid "Custom fields records"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:106
+msgid "Custom fields has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:109
+msgid "Custom fields has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:188
+msgid "Custom field record"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:238
+msgid "Custom field has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCCustomFieldController.php:241
+msgid "Custom field delete failed"
+msgstr ""
+
+#: app/controllers/KCDoctorController.php:450
+msgid "Failed to upload profile image."
+msgstr ""
+
+#: app/controllers/KCDoctorController.php:620
+msgid "Doctor has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:420
+msgid "Custom fields"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:614
+msgid "User data"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:697
+msgid "admin dashboard"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:735
+msgid "Monday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:736
+msgid "Tuesday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:737
+msgid "Wednesday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:738
+msgid "Thursday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:739
+msgid "Friday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:740
+msgid "Saturday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:741
+msgid "Sunday"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:757
+msgid "weekly appointment"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:841
+msgid "Telemed key successfully saved."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:846
+msgid "Telemed key save faild."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:879
+msgid "Configuration data"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:919
+msgid "Requested user not found"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:927
+msgid "Test email sent successfully."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:931
+#: app/controllers/KCHomeController.php:957
+msgid "Test email not sent successfully, Please check your SMTP setup."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:975
+msgid "Change Log"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:995
+msgid "Woocommerce change status."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:1015
+msgid "Woocommerce status."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:1104
+#: app/controllers/KCHomeController.php:1207
+#: app/controllers/KCHomeController.php:1346
+msgid "Clinic Revenue"
+msgstr ""
+
+#: app/controllers/KCHomeController.php:1364
+msgid "Report Type."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:1375
+msgid "SMS service status changed successfully."
+msgstr ""
+
+#: app/controllers/KCHomeController.php:1380
+msgid "SMS service not changed successfully."
+msgstr ""
+
+#: app/controllers/KCModuleController.php:175
+msgid "Module configuration updated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:57
+#: app/controllers/KCPatientEncounterController.php:405
+#: app/controllers/KCPatientEncounterController.php:511
+#: app/controllers/KCPatientMedicalHistoryController.php:51
+#: app/controllers/KCPatientMedicalRecordsController.php:47
+#: app/controllers/KCPatientPrescriptionController.php:47
+msgid "Encounter not found"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:69
+msgid "No bills records found"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:78
+#: app/controllers/KCPatientMedicalRecordsController.php:88
+#: app/controllers/KCPatientMedicalRecordsController.php:231
+#: resources/assets/lang/temp.php:762
+msgid "Medical records"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:118
+#: app/controllers/KCPatientEncounterController.php:132
+#: app/controllers/KCPatientMedicalHistoryController.php:117
+#: app/controllers/KCPatientMedicalRecordsController.php:131
+#: app/controllers/KCPatientPrescriptionController.php:126
+msgid "No encounter found"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:231
+msgid "Bill has been generated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:397
+msgid "Bill item"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:404
+msgid "Bill not found"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:454
+#: app/controllers/KCPatientBillController.php:492
+msgid "Bill item has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:457
+#: app/controllers/KCPatientBillController.php:495
+msgid "Bill item delete failed"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:538
+msgid "Payment status has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientBillController.php:541
+msgid "update status process failed"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:121
+msgid "No patient found"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:169
+msgid "Patient list"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:222
+msgid "Patient Unique ID is required"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:237
+msgid "Patient Unique ID is already used"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:307
+msgid "Patient has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:351
+msgid "Patient has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientController.php:502
+msgid "Patient has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCPatientDashboardWidget.php:230
+#: app/controllers/KCPatientEncounterController.php:140
+msgid "Encounter list"
+msgstr ""
+
+#: app/controllers/KCPatientDashboardWidget.php:467
+msgid "Appointment canceled successfully."
+msgstr ""
+
+#: app/controllers/KCPatientDashboardWidget.php:475
+msgid "Appointment not canceled successful."
+msgstr ""
+
+#: app/controllers/KCPatientDashboardWidget.php:527
+msgid "Profile has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientDashboardWidget.php:575
+msgid "Dashboard data get successfully"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:222
+msgid "Patient encounter has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:227
+msgid "Patient encounter has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:361
+msgid "Encounter has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:400
+#: resources/assets/lang/temp.php:734
+msgid "Encounter details"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:439
+msgid "encounter id not found"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:455
+msgid "Encounter data has been saved"
+msgstr ""
+
+#: app/controllers/KCPatientEncounterController.php:523
+msgid "Encounter status has been updated"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalHistoryController.php:68
+msgid "No medical history found"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalHistoryController.php:76
+msgid "Medical history"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalHistoryController.php:145
+msgid "Medical history has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalHistoryController.php:179
+msgid "Medical history has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalHistoryController.php:182
+msgid "Medical history delete failed"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalRecordsController.php:80
+msgid "No medical records found"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalRecordsController.php:160
+msgid "Medical record has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalRecordsController.php:281
+msgid "Medical record has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCPatientMedicalRecordsController.php:284
+msgid "Medical record delete failed"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:75
+#: resources/assets/lang/temp.php:727
+msgid "No prescription found"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:83
+msgid "Prescription records"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:147
+msgid "Prescription has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:152
+msgid "Prescription has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:216
+msgid "Prescription record"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:265
+msgid "Prescription has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:268
+msgid "Prescription delete failed"
+msgstr ""
+
+#: app/controllers/KCPatientPrescriptionController.php:293
+msgid "Failed To Send Mail"
+msgstr ""
+
+#: app/controllers/KCReceptionistController.php:68
+#: app/controllers/KCSetupController.php:519
+msgid "No receptionist found"
+msgstr ""
+
+#: app/controllers/KCReceptionistController.php:100
+msgid "Receptionist list"
+msgstr ""
+
+#: app/controllers/KCReceptionistController.php:219
+#: app/controllers/KCSetupController.php:717
+msgid "Receptionist has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCReceptionistController.php:247
+msgid "Receptionist has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCReceptionistController.php:396
+msgid "Receptionist has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCReceptionistController.php:468
+msgid "Email has been changed"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:150
+#: app/controllers/KCStaticDataController.php:80
+msgid "No services found"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:230
+msgid "Service has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:270
+msgid "Service has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:357
+msgid "Service data"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:414
+msgid "Service has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:417
+msgid "Service delete failed"
+msgstr ""
+
+#: app/controllers/KCServiceController.php:441
+msgid "Clinic service list"
+msgstr ""
+
+#: app/controllers/KCSetupController.php:73
+msgid "Clinic has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCSetupController.php:182
+msgid "Clinic Admin has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCSetupController.php:328
+msgid "Doctor has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCSetupController.php:578
+msgid "Setup step found"
+msgstr ""
+
+#: app/controllers/KCSetupController.php:733
+msgid "Clinic Setup steps is completed successfully."
+msgstr ""
+
+#: app/controllers/KCSetupController.php:739
+msgid "Clinic Setup is not completed successfully."
+msgstr ""
+
+#: app/controllers/KCSetupController.php:761
+msgid "Completed step."
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:134
+msgid "Similar value is already exists in database"
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:141
+msgid "Static data has been saved successfully"
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:147
+msgid "Static data has been updated successfully"
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:257
+msgid "Static data has been deleted successfully"
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:336
+msgid "Email template  saved successfully."
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:372
+msgid "Common setting save successfully."
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:375
+msgid "Common setting not save successfully."
+msgstr ""
+
+#: app/controllers/KCStaticDataController.php:388
+msgid "country list"
+msgstr ""
+
+#: app/controllers/KCWoocommerceController.php:28
+msgid "Appointment Booked successfully"
+msgstr ""
+
+#: resources/assets/lang/temp.php:4 resources/assets/lang/temp.php:1028
+msgid "KiviCare - Clinic and Patient Management System (EHR)"
+msgstr "KiviCare - Clinic and Patient Management System (EHR - french)"
+
+#: resources/assets/lang/temp.php:5
+msgid "No Appointments Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:6
+msgid "Loading..."
+msgstr ""
+
+#: resources/assets/lang/temp.php:7
+msgid "Cancel"
+msgstr ""
+
+#: resources/assets/lang/temp.php:8 resources/assets/lang/temp.php:615
+#: resources/assets/lang/temp.php:619 resources/assets/lang/temp.php:749
+msgid "Date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:9
+msgid "Close"
+msgstr ""
+
+#: resources/assets/lang/temp.php:10
+msgid "Closed"
+msgstr ""
+
+#: resources/assets/lang/temp.php:11
+msgid "-- Select option --"
+msgstr ""
+
+#: resources/assets/lang/temp.php:12 resources/assets/lang/temp.php:423
+#: resources/assets/lang/temp.php:471 resources/assets/lang/temp.php:828
+msgid "All"
+msgstr ""
+
+#: resources/assets/lang/temp.php:13
+msgid "Back To Wordpress"
+msgstr ""
+
+#: resources/assets/lang/temp.php:14
+msgid "Update"
+msgstr ""
+
+#: resources/assets/lang/temp.php:15
+msgid "My Profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:16 resources/assets/lang/temp.php:1167
+#: resources/assets/lang/temp.php:1175
+msgid "Change Password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:17
+msgid "Logout"
+msgstr ""
+
+#: resources/assets/lang/temp.php:18
+msgid "Full Screen"
+msgstr ""
+
+#: resources/assets/lang/temp.php:19
+msgid "Warning=>esc_html__( Please save you zoom configuration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:20
+msgid "Zoom configuration link"
+msgstr ""
+
+#: resources/assets/lang/temp.php:21
+msgid "DOB"
+msgstr ""
+
+#: resources/assets/lang/temp.php:22
+msgid "Date of birth is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:23
+msgid "Gender"
+msgstr ""
+
+#: resources/assets/lang/temp.php:24
+msgid "Gender is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:25
+msgid "Male"
+msgstr ""
+
+#: resources/assets/lang/temp.php:26
+msgid "Female"
+msgstr ""
+
+#: resources/assets/lang/temp.php:27
+msgid "Other"
+msgstr ""
+
+#: resources/assets/lang/temp.php:28
+msgid "Service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:29 resources/assets/lang/temp.php:882
+#: resources/assets/lang/temp.php:886
+msgid "Services"
+msgstr ""
+
+#: resources/assets/lang/temp.php:30 resources/assets/lang/temp.php:834
+msgid "Add Service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:31
+msgid "Sr no"
+msgstr ""
+
+#: resources/assets/lang/temp.php:32
+msgid "Item name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:33 resources/assets/lang/temp.php:883
+msgid "Price"
+msgstr ""
+
+#: resources/assets/lang/temp.php:34 resources/assets/lang/temp.php:884
+msgid "Quantity"
+msgstr ""
+
+#: resources/assets/lang/temp.php:35
+msgid "Total"
+msgstr ""
+
+#: resources/assets/lang/temp.php:36
+msgid "No records found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:37
+msgid "Note"
+msgstr ""
+
+#: resources/assets/lang/temp.php:38
+msgid "Note=>esc_html__( Type and press enter to create new service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:39 resources/assets/lang/temp.php:466
+#: resources/assets/lang/temp.php:527 resources/assets/lang/temp.php:617
+#: resources/assets/lang/temp.php:623 resources/assets/lang/temp.php:823
+#: resources/assets/lang/temp.php:888 resources/assets/lang/temp.php:900
+#: resources/assets/lang/temp.php:1085
+msgid "Status"
+msgstr ""
+
+#: resources/assets/lang/temp.php:40 resources/assets/lang/temp.php:349
+#: resources/assets/lang/temp.php:401 resources/assets/lang/temp.php:427
+#: resources/assets/lang/temp.php:467 resources/assets/lang/temp.php:537
+#: resources/assets/lang/temp.php:626 resources/assets/lang/temp.php:657
+#: resources/assets/lang/temp.php:701 resources/assets/lang/temp.php:751
+#: resources/assets/lang/temp.php:824 resources/assets/lang/temp.php:895
+#: resources/assets/lang/temp.php:990 resources/assets/lang/temp.php:1087
+msgid "Action"
+msgstr ""
+
+#: resources/assets/lang/temp.php:41 resources/assets/lang/temp.php:901
+msgid "Title"
+msgstr ""
+
+#: resources/assets/lang/temp.php:42 resources/assets/lang/temp.php:340
+#: resources/assets/lang/temp.php:389 resources/assets/lang/temp.php:425
+#: resources/assets/lang/temp.php:448 resources/assets/lang/temp.php:462
+#: resources/assets/lang/temp.php:526 resources/assets/lang/temp.php:651
+#: resources/assets/lang/temp.php:741 resources/assets/lang/temp.php:1081
+msgid "Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:43 resources/assets/lang/temp.php:696
+#: resources/assets/lang/temp.php:832
+msgid "Doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:44 resources/assets/lang/temp.php:977
+#: resources/assets/lang/temp.php:1150
+msgid "Doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:45 resources/assets/lang/temp.php:607
+#: resources/assets/lang/temp.php:616
+msgid "Patient"
+msgstr ""
+
+#: resources/assets/lang/temp.php:46
+msgid "First Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:47
+msgid "First name is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:48
+msgid "Last Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:49
+msgid "Last name is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:50 resources/assets/lang/temp.php:343
+#: resources/assets/lang/temp.php:393 resources/assets/lang/temp.php:428
+#: resources/assets/lang/temp.php:464 resources/assets/lang/temp.php:530
+#: resources/assets/lang/temp.php:821
+msgid "Email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:51
+msgid "Email is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:52
+msgid "Password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:53
+msgid "Password is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:54 resources/assets/lang/temp.php:440
+msgid "Repeat Password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:55
+msgid "Repeat Password is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:56
+msgid "New password and confirm password does not match."
+msgstr ""
+
+#: resources/assets/lang/temp.php:57 resources/assets/lang/temp.php:1216
+msgid "Login"
+msgstr ""
+
+#: resources/assets/lang/temp.php:58
+msgid "Sign Up"
+msgstr ""
+
+#: resources/assets/lang/temp.php:59
+msgid "No"
+msgstr ""
+
+#: resources/assets/lang/temp.php:60
+msgid "Dr."
+msgstr ""
+
+#: resources/assets/lang/temp.php:61
+msgid "Filters"
+msgstr ""
+
+#: resources/assets/lang/temp.php:62
+msgid "Back"
+msgstr ""
+
+#: resources/assets/lang/temp.php:63 resources/assets/lang/temp.php:321
+#: resources/assets/lang/temp.php:449 resources/assets/lang/temp.php:523
+#: resources/assets/lang/temp.php:600 resources/assets/lang/temp.php:736
+#: resources/assets/lang/temp.php:810 resources/assets/lang/temp.php:1011
+msgid "Save"
+msgstr ""
+
+#: resources/assets/lang/temp.php:64
+msgid "Invalid email format"
+msgstr ""
+
+#: resources/assets/lang/temp.php:65 resources/assets/lang/temp.php:472
+#: resources/assets/lang/temp.php:829
+msgid "Active"
+msgstr ""
+
+#: resources/assets/lang/temp.php:66
+msgid "Inactive"
+msgstr ""
+
+#: resources/assets/lang/temp.php:67
+msgid "Name is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:68
+msgid "Email address"
+msgstr ""
+
+#: resources/assets/lang/temp.php:69
+msgid "Contact information"
+msgstr ""
+
+#: resources/assets/lang/temp.php:70
+msgid "Settings"
+msgstr ""
+
+#: resources/assets/lang/temp.php:71
+msgid "First name allows only alphabetic value (not allowed space)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:72
+msgid "First name length should be between 2 to 15 character"
+msgstr ""
+
+#: resources/assets/lang/temp.php:73
+msgid "Last name allows only alphabetic value (not allowed space)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:74
+msgid "Last name length should be between 2 to 15 character"
+msgstr ""
+
+#: resources/assets/lang/temp.php:75
+msgid "Contact"
+msgstr ""
+
+#: resources/assets/lang/temp.php:76
+msgid "Contact is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:77
+msgid "Contact number length should be between 6 to 15 digits"
+msgstr ""
+
+#: resources/assets/lang/temp.php:78
+msgid "Invalid contact number format"
+msgstr ""
+
+#: resources/assets/lang/temp.php:79
+msgid "Telemed"
+msgstr ""
+
+#: resources/assets/lang/temp.php:80
+msgid "To"
+msgstr ""
+
+#: resources/assets/lang/temp.php:81 resources/assets/lang/temp.php:620
+msgid "Time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:82
+msgid "Contact no"
+msgstr ""
+
+#: resources/assets/lang/temp.php:83
+msgid "Contact number is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:84
+msgid "City"
+msgstr ""
+
+#: resources/assets/lang/temp.php:85
+msgid "City is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:86
+msgid "City name allows only alphabetic value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:87
+msgid "City maximum length should be 30 character"
+msgstr ""
+
+#: resources/assets/lang/temp.php:88
+msgid "State"
+msgstr ""
+
+#: resources/assets/lang/temp.php:89
+msgid "State name allows only alphabetic value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:90
+msgid "State maximum length should be 30 character"
+msgstr ""
+
+#: resources/assets/lang/temp.php:91
+msgid "Country"
+msgstr ""
+
+#: resources/assets/lang/temp.php:92
+msgid "Country is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:93
+msgid "Country name allows only alphabetic value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:94
+msgid "Country maximum length should be 30 character"
+msgstr ""
+
+#: resources/assets/lang/temp.php:95
+msgid "Address"
+msgstr ""
+
+#: resources/assets/lang/temp.php:96
+msgid "Address is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:97
+msgid "Postal code"
+msgstr ""
+
+#: resources/assets/lang/temp.php:98
+msgid "Postal code is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:99
+msgid "Invalid postal code format"
+msgstr ""
+
+#: resources/assets/lang/temp.php:100
+msgid "Postal code should be maximum 12 digits"
+msgstr ""
+
+#: resources/assets/lang/temp.php:101 resources/assets/lang/temp.php:1174
+msgid "Profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:102
+msgid "Static Data"
+msgstr ""
+
+#: resources/assets/lang/temp.php:103
+msgid "Handle Request"
+msgstr ""
+
+#: resources/assets/lang/temp.php:104
+msgid ""
+"Other than this many more fine-tunings and tweaks are done. Please email at "
+"hello@iqonic.design if you face any issues with the update."
+msgstr ""
+
+#: resources/assets/lang/temp.php:105
+msgid "Note=>esc_html__( Type option name and press enter to add new option"
+msgstr ""
+
+#: resources/assets/lang/temp.php:106
+msgid ""
+"1) If you face any issue then try deactivating and activating the plugin or "
+"contact us."
+msgstr ""
+
+#: resources/assets/lang/temp.php:107
+msgid "2) If you want to revert old version. PLease install"
+msgstr ""
+
+#: resources/assets/lang/temp.php:108
+msgid "wp-rollback"
+msgstr ""
+
+#: resources/assets/lang/temp.php:109
+msgid "plugin."
+msgstr ""
+
+#: resources/assets/lang/temp.php:110
+msgid "We will keep improving with your support! Thank You!"
+msgstr ""
+
+#: resources/assets/lang/temp.php:111
+msgid "Currency Setting"
+msgstr ""
+
+#: resources/assets/lang/temp.php:112 resources/assets/lang/temp.php:975
+msgid "Module"
+msgstr ""
+
+#: resources/assets/lang/temp.php:113
+msgid "I Understand"
+msgstr ""
+
+#: resources/assets/lang/temp.php:114
+msgid "Important! Major Version update!! (V2.0.0)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:115
+msgid "Microsoft"
+msgstr ""
+
+#: resources/assets/lang/temp.php:116
+msgid "Google"
+msgstr ""
+
+#: resources/assets/lang/temp.php:117
+msgid "Outlook"
+msgstr ""
+
+#: resources/assets/lang/temp.php:118
+msgid "Yahoo"
+msgstr ""
+
+#: resources/assets/lang/temp.php:119
+msgid "Please read this below log before moving forward =>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:120
+msgid "Faced issues ?"
+msgstr ""
+
+#: resources/assets/lang/temp.php:121
+msgid ""
+"If you face problems with this version and you want to continue with old "
+"version then please install and use"
+msgstr ""
+
+#: resources/assets/lang/temp.php:122
+msgid ""
+"For smooth migration to new version check following Video guide=>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:123
+msgid "Kivicare Upgrade V2.0.0"
+msgstr ""
+
+#: resources/assets/lang/temp.php:124
+msgid "Appointment Flow"
+msgstr ""
+
+#: resources/assets/lang/temp.php:125
+msgid "Basic details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:126 resources/assets/lang/temp.php:628
+#: resources/assets/lang/temp.php:1192
+msgid "Close form"
+msgstr ""
+
+#: resources/assets/lang/temp.php:127 resources/assets/lang/temp.php:1009
+msgid "Add"
+msgstr ""
+
+#: resources/assets/lang/temp.php:128 resources/assets/lang/temp.php:663
+msgid "Edit"
+msgstr ""
+
+#: resources/assets/lang/temp.php:129
+msgid "Health Question"
+msgstr ""
+
+#: resources/assets/lang/temp.php:130
+msgid "Enabled - Clinic Booked Appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:131
+msgid "Disabled - Clinic Booked Appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:132
+msgid "Enabled - Appointment Add SMS Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:133
+msgid "Disabled - Appointment Add SMS Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:134
+msgid "Enabled - Encounter Close Add SMS Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:135
+msgid "Disabled - Encounter Close Add SMS Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:136
+msgid "Enabled Kivicare Receptionist Register"
+msgstr ""
+
+#: resources/assets/lang/temp.php:137
+msgid "Disabled Kivicare Receptionist Register"
+msgstr ""
+
+#: resources/assets/lang/temp.php:138
+msgid "Enabled Kivicare Doctor Registration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:139
+msgid "Disabled Kivicare Doctor Registration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:140
+msgid "Enabled Kivicare Book Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:141
+msgid "Disabled Kivicare Book Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:142
+msgid "Enabled Resend user credentials"
+msgstr ""
+
+#: resources/assets/lang/temp.php:143
+msgid "Disabled Resend user credentials"
+msgstr ""
+
+#: resources/assets/lang/temp.php:144
+msgid "Enabled Cancel appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:145
+msgid "Disabled Cancel appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:146
+msgid "Enabled Patient Registration Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:147
+msgid "Disabled Patient Registration Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:148
+msgid "Enabled Video Conference appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:149
+msgid "Disabled Video Conference appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:150
+msgid "Enabled Doctor Booked Appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:151
+msgid "Disabled Doctor Booked Appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:152
+msgid "Enabled Doctor Zoom Video Conference appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:153
+msgid "Disabled Doctor Zoom Video Conference appointment Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:154
+msgid "Enabled Clinic Admin Registration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:155
+msgid "Disabled Clinic Admin Registration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:156
+msgid "Enabled Payment Pending Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:157
+msgid "Disabled Payment Pending Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:158 resources/assets/lang/temp.php:1213
+msgid "Google Event Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:159
+msgid "Upcoming"
+msgstr ""
+
+#: resources/assets/lang/temp.php:160 resources/assets/lang/temp.php:588
+msgid "Completed"
+msgstr ""
+
+#: resources/assets/lang/temp.php:161 resources/assets/lang/temp.php:570
+msgid "Cancelled"
+msgstr ""
+
+#: resources/assets/lang/temp.php:162
+msgid "accepted"
+msgstr ""
+
+#: resources/assets/lang/temp.php:163
+msgid ""
+"This action may delete your doctors appointments, sessions and holidays."
+msgstr ""
+
+#: resources/assets/lang/temp.php:164
+msgid "This action may delete patients appointment, history, encounters."
+msgstr ""
+
+#: resources/assets/lang/temp.php:165
+msgid "Actual AMOUNT"
+msgstr ""
+
+#: resources/assets/lang/temp.php:166
+msgid "Add service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:167
+msgid "Add Static Data"
+msgstr ""
+
+#: resources/assets/lang/temp.php:168
+msgid "Add to Calendar"
+msgstr ""
+
+#: resources/assets/lang/temp.php:169
+msgid "Add To Calender"
+msgstr ""
+
+#: resources/assets/lang/temp.php:170
+msgid "Address info"
+msgstr ""
+
+#: resources/assets/lang/temp.php:171
+msgid "Booking successful"
+msgstr ""
+
+#: resources/assets/lang/temp.php:172
+msgid "All the appointment on selected date will cancel."
+msgstr ""
+
+#: resources/assets/lang/temp.php:173 resources/assets/lang/temp.php:342
+#: resources/assets/lang/temp.php:391 resources/assets/lang/temp.php:481
+#: resources/assets/lang/temp.php:529 resources/assets/lang/temp.php:667
+msgid "Clinic"
+msgstr ""
+
+#: resources/assets/lang/temp.php:174
+msgid "green"
+msgstr ""
+
+#: resources/assets/lang/temp.php:175
+msgid "red"
+msgstr ""
+
+#: resources/assets/lang/temp.php:176
+msgid "Confirm booking"
+msgstr ""
+
+#: resources/assets/lang/temp.php:177
+msgid "You are connected with the google calender."
+msgstr ""
+
+#: resources/assets/lang/temp.php:178
+msgid "Create Add"
+msgstr ""
+
+#: resources/assets/lang/temp.php:179 resources/assets/lang/temp.php:769
+#: resources/assets/lang/temp.php:897
+msgid "DATE"
+msgstr ""
+
+#: resources/assets/lang/temp.php:180
+msgid "Deleting service may affects your existing appointment data."
+msgstr ""
+
+#: resources/assets/lang/temp.php:181
+msgid "desc"
+msgstr ""
+
+#: resources/assets/lang/temp.php:182
+msgid "Disconnected"
+msgstr ""
+
+#: resources/assets/lang/temp.php:183
+msgid "Edit bill item"
+msgstr ""
+
+#: resources/assets/lang/temp.php:184
+msgid "Edit Clinic"
+msgstr ""
+
+#: resources/assets/lang/temp.php:185
+msgid "Edit encounter"
+msgstr ""
+
+#: resources/assets/lang/temp.php:186
+msgid "Edit receptionist"
+msgstr ""
+
+#: resources/assets/lang/temp.php:187
+msgid "Edit service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:188
+msgid "Edit Static Data"
+msgstr ""
+
+#: resources/assets/lang/temp.php:189
+msgid "English"
+msgstr ""
+
+#: resources/assets/lang/temp.php:190
+msgid "Please give permission to your language folder"
+msgstr ""
+
+#: resources/assets/lang/temp.php:191
+msgid "Google Calendar"
+msgstr ""
+
+#: resources/assets/lang/temp.php:192
+msgid "Google Calendar Client ID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:193
+msgid "Google Calendar Client Secret"
+msgstr ""
+
+#: resources/assets/lang/temp.php:194
+msgid "Google Calendar Configuration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:195
+msgid "Google Calendar Intergration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:196
+msgid "Guide to setup google calender."
+msgstr ""
+
+#: resources/assets/lang/temp.php:197 resources/assets/lang/temp.php:365
+msgid "Important! Note"
+msgstr ""
+
+#: resources/assets/lang/temp.php:198
+msgid "in resources."
+msgstr ""
+
+#: resources/assets/lang/temp.php:199 resources/assets/lang/temp.php:658
+msgid "Internal server error"
+msgstr ""
+
+#: resources/assets/lang/temp.php:200
+msgid "Key"
+msgstr ""
+
+#: resources/assets/lang/temp.php:201
+msgid "KiviCare_lang folder"
+msgstr ""
+
+#: resources/assets/lang/temp.php:202
+msgid "lang folder"
+msgstr ""
+
+#: resources/assets/lang/temp.php:203
+msgid "in media uploads folder and"
+msgstr ""
+
+#: resources/assets/lang/temp.php:204
+msgid "Monthly"
+msgstr ""
+
+#: resources/assets/lang/temp.php:205
+msgid "Yearly"
+msgstr ""
+
+#: resources/assets/lang/temp.php:206
+msgid "No Data Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:207
+msgid "NOTES"
+msgstr ""
+
+#: resources/assets/lang/temp.php:208
+msgid "Patient Setting"
+msgstr ""
+
+#: resources/assets/lang/temp.php:209
+msgid ""
+"Please connect with your Google Account to get appointments in Google "
+"Calendar automatically."
+msgstr ""
+
+#: resources/assets/lang/temp.php:210
+msgid "Press yes to delete bill item"
+msgstr ""
+
+#: resources/assets/lang/temp.php:211
+msgid "Press yes to delete static data"
+msgstr ""
+
+#: resources/assets/lang/temp.php:212 resources/assets/lang/temp.php:999
+msgid "Press yes to delete"
+msgstr ""
+
+#: resources/assets/lang/temp.php:213
+msgid "Press yes to delete appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:214
+msgid "Press yes to delete clinic"
+msgstr ""
+
+#: resources/assets/lang/temp.php:215
+msgid "Press yes to delete clinic session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:216
+msgid "Press yes to delete Field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:217
+msgid "Press yes to delete prescription"
+msgstr ""
+
+#: resources/assets/lang/temp.php:218
+msgid "Press yes to delete Receptionist"
+msgstr ""
+
+#: resources/assets/lang/temp.php:219
+msgid "Receptionist List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:220
+msgid "Remove from Calender"
+msgstr ""
+
+#: resources/assets/lang/temp.php:221
+msgid "Following action reset your current appointment session slot."
+msgstr ""
+
+#: resources/assets/lang/temp.php:222
+msgid "Save and Close Encounter"
+msgstr ""
+
+#: resources/assets/lang/temp.php:223
+msgid "Save item"
+msgstr ""
+
+#: resources/assets/lang/temp.php:224
+msgid "Save profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:225
+msgid "Server Error"
+msgstr ""
+
+#: resources/assets/lang/temp.php:226
+msgid "Setting for add event in calendar for patient."
+msgstr ""
+
+#: resources/assets/lang/temp.php:227 resources/assets/lang/temp.php:768
+#: resources/assets/lang/temp.php:775
+msgid "START DATE"
+msgstr ""
+
+#: resources/assets/lang/temp.php:228
+msgid "Static Data List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:229 resources/assets/lang/temp.php:1068
+#: resources/assets/lang/temp.php:1092
+msgid "Terms and Condition"
+msgstr ""
+
+#: resources/assets/lang/temp.php:230 resources/assets/lang/temp.php:902
+msgid "Total AMOUNT"
+msgstr ""
+
+#: resources/assets/lang/temp.php:231
+msgid "Total Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:232
+msgid "Press yes to update appointment status"
+msgstr ""
+
+#: resources/assets/lang/temp.php:233
+msgid "Press yes to update payment status"
+msgstr ""
+
+#: resources/assets/lang/temp.php:234
+msgid "Video Consultation"
+msgstr ""
+
+#: resources/assets/lang/temp.php:235
+msgid "Weekly"
+msgstr ""
+
+#: resources/assets/lang/temp.php:236
+msgid "Yes"
+msgstr ""
+
+#: resources/assets/lang/temp.php:237
+msgid "CheckIn"
+msgstr ""
+
+#: resources/assets/lang/temp.php:240
+msgid "Dashboard"
+msgstr "Dashboard - french"
+
+#: resources/assets/lang/temp.php:241
+msgid "Total Patients"
+msgstr ""
+
+#: resources/assets/lang/temp.php:242
+msgid "Total visited patients"
+msgstr ""
+
+#: resources/assets/lang/temp.php:243
+msgid "Total Doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:244
+msgid "Total clinic doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:245
+msgid "Total Appointments"
+msgstr ""
+
+#: resources/assets/lang/temp.php:246
+msgid "Total clinic appointments"
+msgstr ""
+
+#: resources/assets/lang/temp.php:247 resources/assets/lang/temp.php:1168
+msgid "Latest appointments"
+msgstr ""
+
+#: resources/assets/lang/temp.php:248
+msgid "Reload"
+msgstr ""
+
+#: resources/assets/lang/temp.php:249
+msgid "View All"
+msgstr ""
+
+#: resources/assets/lang/temp.php:250
+msgid "Weekly appointments"
+msgstr ""
+
+#: resources/assets/lang/temp.php:251
+msgid "Weekly total appointments"
+msgstr ""
+
+#: resources/assets/lang/temp.php:252
+msgid "todays appointment list"
+msgstr ""
+
+#: resources/assets/lang/temp.php:253
+msgid "Total revenue"
+msgstr ""
+
+#: resources/assets/lang/temp.php:254
+msgid "Total clinic revenue"
+msgstr ""
+
+#: resources/assets/lang/temp.php:255
+msgid "Total generated revenue"
+msgstr ""
+
+#: resources/assets/lang/temp.php:256
+msgid "Filter"
+msgstr ""
+
+#: resources/assets/lang/temp.php:257
+msgid "Reset"
+msgstr ""
+
+#: resources/assets/lang/temp.php:258
+msgid "Total Today Appointments"
+msgstr ""
+
+#: resources/assets/lang/temp.php:259
+msgid "Total service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:260
+msgid "Patients"
+msgstr ""
+
+#: resources/assets/lang/temp.php:261
+msgid "Medical dashboard"
+msgstr ""
+
+#: resources/assets/lang/temp.php:265
+msgid "Doctor name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:266
+msgid "Doctor specialization is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:267
+msgid "Experience(In Year)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:268
+msgid "Address details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:269
+msgid "Degree"
+msgstr ""
+
+#: resources/assets/lang/temp.php:270
+msgid "Degree is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:271
+msgid "Degree allow only character value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:272
+msgid "University"
+msgstr ""
+
+#: resources/assets/lang/temp.php:273
+msgid "University is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:274
+msgid "University allow only character value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:275
+msgid "Year"
+msgstr ""
+
+#: resources/assets/lang/temp.php:276
+msgid "-- Select year --"
+msgstr ""
+
+#: resources/assets/lang/temp.php:277
+msgid "Year is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:278
+msgid "College/University"
+msgstr ""
+
+#: resources/assets/lang/temp.php:279
+msgid "API key"
+msgstr ""
+
+#: resources/assets/lang/temp.php:280
+msgid "API secret"
+msgstr ""
+
+#: resources/assets/lang/temp.php:281
+msgid "API secret is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:282
+msgid "API Key is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:283
+msgid "Zoom Configuration guide"
+msgstr ""
+
+#: resources/assets/lang/temp.php:284
+msgid "Step 1 => Sign up or Sign in here =>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:285
+msgid ""
+"Step 2 => Click/Hover on Develop button at the right in navigation bar and "
+"click on build app"
+msgstr ""
+
+#: resources/assets/lang/temp.php:286
+msgid "Step 3 => Choose your app type to JWT"
+msgstr ""
+
+#: resources/assets/lang/temp.php:287
+msgid ""
+"Step 4 => Fill the mandatory information and In the App credentials tag you "
+"can see API key and API Secret."
+msgstr ""
+
+#: resources/assets/lang/temp.php:288
+msgid ""
+"Step 5 => Copy and Paste API key and API secret here and click on save "
+"button and you are ready to go."
+msgstr ""
+
+#: resources/assets/lang/temp.php:289
+msgid "Other detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:290
+msgid "Consultation Fees"
+msgstr ""
+
+#: resources/assets/lang/temp.php:291
+msgid "Video consultation fees"
+msgstr ""
+
+#: resources/assets/lang/temp.php:292
+msgid "Doctors fees is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:293
+msgid "Zoom market Place portal"
+msgstr ""
+
+#: resources/assets/lang/temp.php:294
+msgid "Create app"
+msgstr ""
+
+#: resources/assets/lang/temp.php:295
+msgid "Doctors List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:296
+msgid "Other details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:297
+msgid "Extra detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:298
+msgid "Add doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:299 resources/assets/lang/temp.php:415
+msgid "Edit profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:300
+msgid "Basic information"
+msgstr ""
+
+#: resources/assets/lang/temp.php:301
+msgid "Basic Settings"
+msgstr ""
+
+#: resources/assets/lang/temp.php:302 resources/assets/lang/temp.php:988
+#: resources/assets/lang/temp.php:1083
+msgid "Type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:303
+msgid "Type is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:304
+msgid "Fees type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:305
+msgid "Range"
+msgstr ""
+
+#: resources/assets/lang/temp.php:306
+msgid "Fixed"
+msgstr ""
+
+#: resources/assets/lang/temp.php:307
+msgid "Fees"
+msgstr ""
+
+#: resources/assets/lang/temp.php:308
+msgid "Fees type is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:309
+msgid " Doctors fees is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:310
+msgid "Doctors fees must be greater then zero"
+msgstr ""
+
+#: resources/assets/lang/temp.php:311
+msgid "Doctors fees must be between 0 to 1000000000000000000"
+msgstr ""
+
+#: resources/assets/lang/temp.php:312
+msgid "Doctors fees Minimum fees and maximum fees are required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:313
+msgid "Doctors fees Minimum fees and maximum fees must be greater then zero"
+msgstr ""
+
+#: resources/assets/lang/temp.php:314
+msgid "Doctors to fees minimum value must be greater then from fees value."
+msgstr ""
+
+#: resources/assets/lang/temp.php:315
+msgid ""
+"Doctors fees Maximum fees and minimum fees must be between 0 to "
+"1000000000000000000"
+msgstr ""
+
+#: resources/assets/lang/temp.php:316
+msgid "Qualification Information"
+msgstr ""
+
+#: resources/assets/lang/temp.php:317
+msgid "Qualification/Speciality details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:318
+msgid "Doctors working days and sessions"
+msgstr ""
+
+#: resources/assets/lang/temp.php:319
+msgid "Added charges and doctor selection"
+msgstr ""
+
+#: resources/assets/lang/temp.php:320
+msgid "Individual doctor field customization"
+msgstr ""
+
+#: resources/assets/lang/temp.php:322 resources/assets/lang/temp.php:379
+#: resources/assets/lang/temp.php:447 resources/assets/lang/temp.php:520
+#: resources/assets/lang/temp.php:1031 resources/assets/lang/temp.php:1155
+msgid "Enter first name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:323 resources/assets/lang/temp.php:380
+#: resources/assets/lang/temp.php:450 resources/assets/lang/temp.php:753
+#: resources/assets/lang/temp.php:1032 resources/assets/lang/temp.php:1156
+msgid "Enter last name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:324 resources/assets/lang/temp.php:381
+#: resources/assets/lang/temp.php:451 resources/assets/lang/temp.php:1033
+#: resources/assets/lang/temp.php:1137 resources/assets/lang/temp.php:1157
+msgid "Enter email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:325 resources/assets/lang/temp.php:383
+#: resources/assets/lang/temp.php:456 resources/assets/lang/temp.php:516
+#: resources/assets/lang/temp.php:1041 resources/assets/lang/temp.php:1161
+msgid "Enter address"
+msgstr ""
+
+#: resources/assets/lang/temp.php:326 resources/assets/lang/temp.php:386
+#: resources/assets/lang/temp.php:542 resources/assets/lang/temp.php:1043
+#: resources/assets/lang/temp.php:1164
+msgid "Enter country"
+msgstr ""
+
+#: resources/assets/lang/temp.php:327 resources/assets/lang/temp.php:402
+#: resources/assets/lang/temp.php:454 resources/assets/lang/temp.php:512
+#: resources/assets/lang/temp.php:601 resources/assets/lang/temp.php:689
+#: resources/assets/lang/temp.php:738 resources/assets/lang/temp.php:765
+#: resources/assets/lang/temp.php:788 resources/assets/lang/temp.php:903
+#: resources/assets/lang/temp.php:919 resources/assets/lang/temp.php:1047
+#: resources/assets/lang/temp.php:1128 resources/assets/lang/temp.php:1158
+#: resources/assets/lang/temp.php:1159
+msgid "Search"
+msgstr ""
+
+#: resources/assets/lang/temp.php:328 resources/assets/lang/temp.php:404
+#: resources/assets/lang/temp.php:691 resources/assets/lang/temp.php:737
+#: resources/assets/lang/temp.php:787
+msgid "Select clinic"
+msgstr ""
+
+#: resources/assets/lang/temp.php:329 resources/assets/lang/temp.php:382
+#: resources/assets/lang/temp.php:1138 resources/assets/lang/temp.php:1160
+msgid "Enter contact"
+msgstr ""
+
+#: resources/assets/lang/temp.php:330 resources/assets/lang/temp.php:405
+#: resources/assets/lang/temp.php:453 resources/assets/lang/temp.php:521
+#: resources/assets/lang/temp.php:1035
+msgid "welcome date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:331 resources/assets/lang/temp.php:406
+#: resources/assets/lang/temp.php:1046
+msgid "Doctor specialization"
+msgstr ""
+
+#: resources/assets/lang/temp.php:332 resources/assets/lang/temp.php:407
+msgid "Add Specialization"
+msgstr ""
+
+#: resources/assets/lang/temp.php:333 resources/assets/lang/temp.php:408
+msgid "Enter experience"
+msgstr ""
+
+#: resources/assets/lang/temp.php:334 resources/assets/lang/temp.php:387
+#: resources/assets/lang/temp.php:1165
+msgid "Enter pin code"
+msgstr ""
+
+#: resources/assets/lang/temp.php:335 resources/assets/lang/temp.php:359
+#: resources/assets/lang/temp.php:409 resources/assets/lang/temp.php:1051
+msgid "Enter degree"
+msgstr ""
+
+#: resources/assets/lang/temp.php:336 resources/assets/lang/temp.php:360
+#: resources/assets/lang/temp.php:410 resources/assets/lang/temp.php:1052
+msgid "Enter university name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:337 resources/assets/lang/temp.php:411
+msgid "Enter your API key"
+msgstr ""
+
+#: resources/assets/lang/temp.php:338 resources/assets/lang/temp.php:412
+msgid "Enter your API secret"
+msgstr ""
+
+#: resources/assets/lang/temp.php:339 resources/assets/lang/temp.php:388
+#: resources/assets/lang/temp.php:424 resources/assets/lang/temp.php:461
+#: resources/assets/lang/temp.php:525 resources/assets/lang/temp.php:648
+#: resources/assets/lang/temp.php:695 resources/assets/lang/temp.php:742
+#: resources/assets/lang/temp.php:985 resources/assets/lang/temp.php:1080
+msgid "SR."
+msgstr ""
+
+#: resources/assets/lang/temp.php:341 resources/assets/lang/temp.php:531
+msgid "Filter doctor by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:344
+msgid "Filter doctor by email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:345 resources/assets/lang/temp.php:429
+#: resources/assets/lang/temp.php:535
+msgid "Mobile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:346
+msgid "Filter doctor by mobile no"
+msgstr ""
+
+#: resources/assets/lang/temp.php:347 resources/assets/lang/temp.php:430
+#: resources/assets/lang/temp.php:536 resources/assets/lang/temp.php:793
+#: resources/assets/lang/temp.php:1038
+msgid "Specialization"
+msgstr ""
+
+#: resources/assets/lang/temp.php:348 resources/assets/lang/temp.php:437
+#: resources/assets/lang/temp.php:533
+msgid "Filter doctor by specialties"
+msgstr ""
+
+#: resources/assets/lang/temp.php:350
+msgid "Add Qualification"
+msgstr ""
+
+#: resources/assets/lang/temp.php:351 resources/assets/lang/temp.php:474
+#: resources/assets/lang/temp.php:541
+msgid "Clinic address"
+msgstr ""
+
+#: resources/assets/lang/temp.php:352 resources/assets/lang/temp.php:361
+#: resources/assets/lang/temp.php:384 resources/assets/lang/temp.php:458
+#: resources/assets/lang/temp.php:517 resources/assets/lang/temp.php:543
+#: resources/assets/lang/temp.php:1042 resources/assets/lang/temp.php:1162
+msgid "Enter city"
+msgstr ""
+
+#: resources/assets/lang/temp.php:353 resources/assets/lang/temp.php:385
+#: resources/assets/lang/temp.php:459 resources/assets/lang/temp.php:1163
+msgid "Enter state"
+msgstr ""
+
+#: resources/assets/lang/temp.php:354 resources/assets/lang/temp.php:457
+#: resources/assets/lang/temp.php:518
+msgid "Enter country name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:355 resources/assets/lang/temp.php:460
+#: resources/assets/lang/temp.php:519 resources/assets/lang/temp.php:544
+#: resources/assets/lang/temp.php:1044
+msgid "Enter postal code"
+msgstr ""
+
+#: resources/assets/lang/temp.php:356 resources/assets/lang/temp.php:1048
+msgid "Enter fees"
+msgstr ""
+
+#: resources/assets/lang/temp.php:357 resources/assets/lang/temp.php:1049
+msgid "Min price range"
+msgstr ""
+
+#: resources/assets/lang/temp.php:358 resources/assets/lang/temp.php:1050
+msgid "Max price range"
+msgstr ""
+
+#: resources/assets/lang/temp.php:362
+msgid "Add qualifiaction"
+msgstr ""
+
+#: resources/assets/lang/temp.php:363
+msgid "Edit qualification"
+msgstr ""
+
+#: resources/assets/lang/temp.php:364
+msgid "Google Calender not connected please"
+msgstr ""
+
+#: resources/assets/lang/temp.php:366
+msgid "Sign in"
+msgstr ""
+
+#: resources/assets/lang/temp.php:367
+msgid "Sign in with google."
+msgstr ""
+
+#: resources/assets/lang/temp.php:368
+msgid "Save qualification"
+msgstr ""
+
+#: resources/assets/lang/temp.php:369 resources/assets/lang/temp.php:552
+msgid "No Doctor Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:372
+msgid " Patient name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:373
+msgid "Add patient"
+msgstr ""
+
+#: resources/assets/lang/temp.php:374
+msgid "Patients Lists"
+msgstr ""
+
+#: resources/assets/lang/temp.php:375
+msgid "Medical Report"
+msgstr ""
+
+#: resources/assets/lang/temp.php:376
+msgid "Add Medical Report"
+msgstr ""
+
+#: resources/assets/lang/temp.php:377
+msgid "Upload Report"
+msgstr ""
+
+#: resources/assets/lang/temp.php:378 resources/assets/lang/temp.php:455
+#: resources/assets/lang/temp.php:493 resources/assets/lang/temp.php:631
+msgid "Select Clinic"
+msgstr ""
+
+#: resources/assets/lang/temp.php:390 resources/assets/lang/temp.php:433
+msgid "Filter patient by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:392
+msgid "Filter clinic name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:394 resources/assets/lang/temp.php:434
+msgid "Filter patient by email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:395
+msgid "Mobile No."
+msgstr ""
+
+#: resources/assets/lang/temp.php:396
+msgid "Filter patient by contact"
+msgstr ""
+
+#: resources/assets/lang/temp.php:397 resources/assets/lang/temp.php:432
+#: resources/assets/lang/temp.php:1154
+msgid "Blood Group"
+msgstr ""
+
+#: resources/assets/lang/temp.php:398
+msgid "ARALL"
+msgstr ""
+
+#: resources/assets/lang/temp.php:399
+msgid "Registered NO."
+msgstr ""
+
+#: resources/assets/lang/temp.php:400
+msgid "Filter patient by Reg. date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:403 resources/assets/lang/temp.php:1166
+msgid "save"
+msgstr ""
+
+#: resources/assets/lang/temp.php:413
+msgid "Edit Bill"
+msgstr ""
+
+#: resources/assets/lang/temp.php:414
+msgid "Edit patient"
+msgstr ""
+
+#: resources/assets/lang/temp.php:416 resources/assets/lang/temp.php:666
+#: resources/assets/lang/temp.php:709 resources/assets/lang/temp.php:997
+msgid "Export CSV"
+msgstr ""
+
+#: resources/assets/lang/temp.php:417 resources/assets/lang/temp.php:665
+#: resources/assets/lang/temp.php:710 resources/assets/lang/temp.php:998
+msgid "Export Excel"
+msgstr ""
+
+#: resources/assets/lang/temp.php:418
+msgid "Patient Unique ID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:419
+msgid "Postfix"
+msgstr ""
+
+#: resources/assets/lang/temp.php:420
+msgid "Prefix"
+msgstr ""
+
+#: resources/assets/lang/temp.php:421
+msgid "Patient unique Id Setting"
+msgstr ""
+
+#: resources/assets/lang/temp.php:422 resources/assets/lang/temp.php:664
+#: resources/assets/lang/temp.php:845 resources/assets/lang/temp.php:1000
+msgid "Print"
+msgstr ""
+
+#: resources/assets/lang/temp.php:426 resources/assets/lang/temp.php:463
+#: resources/assets/lang/temp.php:697 resources/assets/lang/temp.php:745
+msgid "Clinic Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:431 resources/assets/lang/temp.php:534
+msgid "Registered ON"
+msgstr ""
+
+#: resources/assets/lang/temp.php:435
+msgid "Filter patient by mobile no"
+msgstr ""
+
+#: resources/assets/lang/temp.php:436
+msgid "Filter Patient by Date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:438
+msgid "Enter Username"
+msgstr ""
+
+#: resources/assets/lang/temp.php:439
+msgid "Enter Password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:441
+msgid "Enter report name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:442 resources/assets/lang/temp.php:891
+msgid "Enter title"
+msgstr ""
+
+#: resources/assets/lang/temp.php:443
+msgid "Enter notes"
+msgstr ""
+
+#: resources/assets/lang/temp.php:452 resources/assets/lang/temp.php:539
+msgid "Enter contact number"
+msgstr ""
+
+#: resources/assets/lang/temp.php:465 resources/assets/lang/temp.php:822
+msgid "Mobile No"
+msgstr ""
+
+#: resources/assets/lang/temp.php:468
+msgid "Filter receptionist by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:469
+msgid "Filter receptionist by email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:470
+msgid "Filter receptionist by mobile no"
+msgstr ""
+
+#: resources/assets/lang/temp.php:473 resources/assets/lang/temp.php:830
+msgid "InActive"
+msgstr ""
+
+#: resources/assets/lang/temp.php:475 resources/assets/lang/temp.php:1146
+msgid "Login user not found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:476
+msgid "Press yes to delete receptionist"
+msgstr ""
+
+#: resources/assets/lang/temp.php:477
+msgid "Resend credential"
+msgstr ""
+
+#: resources/assets/lang/temp.php:478
+msgid "Upload Proifle"
+msgstr ""
+
+#: resources/assets/lang/temp.php:482
+msgid "Receptionist"
+msgstr ""
+
+#: resources/assets/lang/temp.php:483
+msgid "Receptionists List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:484
+msgid "Add receptionist"
+msgstr ""
+
+#: resources/assets/lang/temp.php:485
+msgid "Clinic name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:486
+msgid "Clinic information"
+msgstr ""
+
+#: resources/assets/lang/temp.php:487
+msgid "Clinic Profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:488
+msgid "Add clinic"
+msgstr ""
+
+#: resources/assets/lang/temp.php:489
+msgid "Admin Profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:490
+msgid "Clinic Admin Detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:491
+msgid "invalid clinic name format only allow alphabetic value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:492
+msgid "Clinic name length must be between 2 to 35 characters"
+msgstr ""
+
+#: resources/assets/lang/temp.php:494
+msgid "Speciality"
+msgstr ""
+
+#: resources/assets/lang/temp.php:495
+msgid "Specialties"
+msgstr ""
+
+#: resources/assets/lang/temp.php:496
+msgid "Specialities"
+msgstr ""
+
+#: resources/assets/lang/temp.php:497
+msgid "Note=> Type and press enter to add new specialization"
+msgstr ""
+
+#: resources/assets/lang/temp.php:498
+msgid "Clinic specialities is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:499
+msgid "Currency prefix"
+msgstr ""
+
+#: resources/assets/lang/temp.php:500
+msgid "Currency postfix"
+msgstr ""
+
+#: resources/assets/lang/temp.php:501
+msgid "Currency decimals"
+msgstr ""
+
+#: resources/assets/lang/temp.php:502
+msgid "Profile image"
+msgstr ""
+
+#: resources/assets/lang/temp.php:504
+msgid "Doctor record not found "
+msgstr ""
+
+#: resources/assets/lang/temp.php:505
+msgid "Blood group"
+msgstr ""
+
+#: resources/assets/lang/temp.php:506
+msgid "-- Select blood group --"
+msgstr ""
+
+#: resources/assets/lang/temp.php:507
+msgid "Update Profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:508
+msgid "Clinic List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:509 resources/assets/lang/temp.php:549
+#: resources/assets/lang/temp.php:1036
+msgid "Enter clinic name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:510 resources/assets/lang/temp.php:538
+msgid "Enter email address"
+msgstr ""
+
+#: resources/assets/lang/temp.php:511 resources/assets/lang/temp.php:1034
+msgid "Enter telephone number"
+msgstr ""
+
+#: resources/assets/lang/temp.php:513 resources/assets/lang/temp.php:540
+#: resources/assets/lang/temp.php:1037
+msgid "Clinic specialization"
+msgstr ""
+
+#: resources/assets/lang/temp.php:514 resources/assets/lang/temp.php:545
+#: resources/assets/lang/temp.php:1039
+msgid "Enter currency prefix"
+msgstr ""
+
+#: resources/assets/lang/temp.php:515 resources/assets/lang/temp.php:546
+#: resources/assets/lang/temp.php:1040
+msgid "Enter currency postfix"
+msgstr ""
+
+#: resources/assets/lang/temp.php:522
+msgid "Clinic logo"
+msgstr ""
+
+#: resources/assets/lang/temp.php:524
+msgid "Contact No"
+msgstr ""
+
+#: resources/assets/lang/temp.php:528
+msgid "Filter clinic by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:532
+msgid "Filter doctor by contact number"
+msgstr ""
+
+#: resources/assets/lang/temp.php:547
+msgid "currency decimals"
+msgstr ""
+
+#: resources/assets/lang/temp.php:548
+msgid "Select decimal"
+msgstr ""
+
+#: resources/assets/lang/temp.php:550 resources/assets/lang/temp.php:1018
+msgid "Add session details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:551
+msgid "Edit holiday"
+msgstr ""
+
+#: resources/assets/lang/temp.php:553
+msgid "Edit Session Detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:554
+msgid "Save Session Detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:555
+msgid "Edit Clinic Profile"
+msgstr ""
+
+#: resources/assets/lang/temp.php:556
+msgid "Record Not Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:557
+msgid "Clinic Not Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:558
+msgid "No Speciality Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:559
+msgid "Clinic profile updated successfully"
+msgstr ""
+
+#: resources/assets/lang/temp.php:560
+msgid "Clinic profile not updated successfully"
+msgstr ""
+
+#: resources/assets/lang/temp.php:563 resources/assets/lang/temp.php:841
+msgid "Paid"
+msgstr ""
+
+#: resources/assets/lang/temp.php:564 resources/assets/lang/temp.php:842
+msgid "Unpaid"
+msgstr ""
+
+#: resources/assets/lang/temp.php:565
+msgid "Pending"
+msgstr ""
+
+#: resources/assets/lang/temp.php:566
+msgid "Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:568 resources/assets/lang/temp.php:625
+msgid "Description"
+msgstr ""
+
+#: resources/assets/lang/temp.php:569
+msgid "Booked"
+msgstr ""
+
+#: resources/assets/lang/temp.php:571
+msgid "Arrived"
+msgstr ""
+
+#: resources/assets/lang/temp.php:572
+msgid "Check in"
+msgstr ""
+
+#: resources/assets/lang/temp.php:573
+msgid "Check out"
+msgstr ""
+
+#: resources/assets/lang/temp.php:574
+msgid "Start"
+msgstr ""
+
+#: resources/assets/lang/temp.php:575
+msgid "Join"
+msgstr ""
+
+#: resources/assets/lang/temp.php:577
+msgid "Visit type is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:578 resources/assets/lang/temp.php:629
+msgid "Appointment Date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:579
+msgid "Appointment date is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:580 resources/assets/lang/temp.php:887
+#: resources/assets/lang/temp.php:984 resources/assets/lang/temp.php:1078
+#: resources/assets/lang/temp.php:1079
+msgid "Select status"
+msgstr ""
+
+#: resources/assets/lang/temp.php:582
+msgid "Available Slot"
+msgstr ""
+
+#: resources/assets/lang/temp.php:583 resources/assets/lang/temp.php:1145
+msgid "Session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:584
+msgid "No time slots found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:585
+msgid "Time Slot Required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:586
+msgid "Appointment details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:587
+msgid "Appointment type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:589
+msgid "Appointment Time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:590
+msgid " Appointment time is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:591 resources/assets/lang/temp.php:1173
+msgid "Book Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:592
+msgid "Todays Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:593
+msgid "Tomorrows Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:594 utils/kc_helpers.php:798
+msgid "Appointment Booking"
+msgstr ""
+
+#: resources/assets/lang/temp.php:595
+msgid "Available Appointments On"
+msgstr ""
+
+#: resources/assets/lang/temp.php:596
+msgid "Appointment visit type is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:597
+msgid "Appointment Detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:598
+msgid "Save Appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:599 resources/assets/lang/temp.php:1170
+msgid "Appointment List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:602 resources/assets/lang/temp.php:739
+#: resources/assets/lang/temp.php:815 resources/assets/lang/temp.php:816
+#: resources/assets/lang/temp.php:1131
+msgid "Select doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:603
+msgid "Visit type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:604 resources/assets/lang/temp.php:740
+msgid "Patient type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:606
+msgid "Enter appointment description"
+msgstr ""
+
+#: resources/assets/lang/temp.php:608
+msgid "all"
+msgstr ""
+
+#: resources/assets/lang/temp.php:609
+msgid "upcoming"
+msgstr ""
+
+#: resources/assets/lang/temp.php:610 resources/assets/lang/temp.php:690
+#: resources/assets/lang/temp.php:1053
+msgid "Select session doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:611
+msgid "Select appointment type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:612
+msgid "Enter something"
+msgstr ""
+
+#: resources/assets/lang/temp.php:613
+msgid "DOCTOR NAME"
+msgstr ""
+
+#: resources/assets/lang/temp.php:614
+msgid "PATIENT NAME"
+msgstr ""
+
+#: resources/assets/lang/temp.php:618 resources/assets/lang/temp.php:774
+#: resources/assets/lang/temp.php:899
+msgid "SR. NO"
+msgstr ""
+
+#: resources/assets/lang/temp.php:621 resources/assets/lang/temp.php:747
+msgid "Patient Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:622 resources/assets/lang/temp.php:743
+msgid "Doctor Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:624
+msgid "Visit Type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:627
+msgid "Add appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:630
+msgid "select Date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:632
+msgid "Select Patient"
+msgstr ""
+
+#: resources/assets/lang/temp.php:637
+msgid "Schedule"
+msgstr ""
+
+#: resources/assets/lang/temp.php:638
+msgid "Holiday of"
+msgstr ""
+
+#: resources/assets/lang/temp.php:639
+msgid "Module type is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:640
+msgid "Schedule date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:641
+msgid "Schedule date is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:642 resources/assets/lang/temp.php:661
+msgid "Holiday List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:643
+msgid "Select module type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:644 resources/assets/lang/temp.php:976
+msgid "Select module"
+msgstr ""
+
+#: resources/assets/lang/temp.php:645
+msgid "Select Schedule date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:646
+msgid "doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:647 resources/assets/lang/temp.php:978
+msgid "Select Doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:649
+msgid "Schedule Of"
+msgstr ""
+
+#: resources/assets/lang/temp.php:650
+msgid "Filter Holiday by Schedule"
+msgstr ""
+
+#: resources/assets/lang/temp.php:652
+msgid "Filter Holiday by doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:653
+msgid "From Date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:654
+msgid "Filter Holiday by start date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:655
+msgid "To DATE"
+msgstr ""
+
+#: resources/assets/lang/temp.php:656
+msgid "Filter Holiday by end date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:659 resources/assets/lang/temp.php:993
+msgid "Are you sure ?"
+msgstr ""
+
+#: resources/assets/lang/temp.php:660
+msgid "Press yes to delete holiday"
+msgstr ""
+
+#: resources/assets/lang/temp.php:662
+msgid "Delete"
+msgstr ""
+
+#: resources/assets/lang/temp.php:668
+msgid "Add holiday"
+msgstr ""
+
+#: resources/assets/lang/temp.php:669 resources/assets/lang/temp.php:703
+#: resources/assets/lang/temp.php:835
+msgid "close form"
+msgstr ""
+
+#: resources/assets/lang/temp.php:670
+msgid "Delete Current Appointmet Session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:671
+msgid "Schedule not found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:672
+msgid ""
+"This action may delete your doctor\"s appointments, sessions and holidays."
+msgstr ""
+
+#: resources/assets/lang/temp.php:675
+msgid "Doctor Sessions"
+msgstr ""
+
+#: resources/assets/lang/temp.php:676
+msgid "Session doctor is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:677
+msgid "Selected Doctor is already added in another session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:678
+msgid "Week days"
+msgstr ""
+
+#: resources/assets/lang/temp.php:679
+msgid "Days is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:680
+msgid "Selected days is already exist in the other session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:681
+msgid "Morning session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:682
+msgid "Start time is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:683
+msgid "Start time must be smaller then end time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:684
+msgid "End time is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:685
+msgid "End time must be bigger then start time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:686
+msgid "Evening session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:687
+msgid "Start time must be smaller then first sessions end time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:688
+msgid "This tab helps you to set sessions for individual Doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:692
+msgid "Start time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:693
+msgid "End time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:694
+msgid "Filter doctor session by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:698 resources/assets/lang/temp.php:1020
+msgid "Days"
+msgstr ""
+
+#: resources/assets/lang/temp.php:699
+msgid "Morning Session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:700
+msgid "Evening Session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:702
+msgid "Doctor Session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:704
+msgid "Save Session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:705
+msgid "Clinic Session List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:706
+msgid "Doctor session not saved successfully"
+msgstr ""
+
+#: resources/assets/lang/temp.php:707
+msgid "Doctor session saved successfully"
+msgstr ""
+
+#: resources/assets/lang/temp.php:708
+msgid "Edit session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:711
+msgid "No speciality Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:712
+msgid "Save session"
+msgstr ""
+
+#: resources/assets/lang/temp.php:713
+msgid "Clinic Profile Data Not Found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:716
+msgid "Send mail To Patient"
+msgstr ""
+
+#: resources/assets/lang/temp.php:717
+msgid "Encounters"
+msgstr ""
+
+#: resources/assets/lang/temp.php:718
+msgid "Encounter dashboard"
+msgstr ""
+
+#: resources/assets/lang/temp.php:719
+msgid "is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:720
+msgid "Note=> Type and press enter to create new prescription"
+msgstr ""
+
+#: resources/assets/lang/temp.php:721
+msgid "Frequency"
+msgstr ""
+
+#: resources/assets/lang/temp.php:722
+msgid "Frequency is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:723
+msgid "Duration (In Days)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:724
+msgid "Duration is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:725
+msgid "Instruction"
+msgstr ""
+
+#: resources/assets/lang/temp.php:726
+msgid "Duration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:728
+msgid "No patient report found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:729
+msgid "Add prescription"
+msgstr ""
+
+#: resources/assets/lang/temp.php:730
+msgid "Encounter Date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:731
+msgid "Encounter date is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:732
+msgid "Encounter Module"
+msgstr ""
+
+#: resources/assets/lang/temp.php:733
+msgid "Prescription"
+msgstr ""
+
+#: resources/assets/lang/temp.php:735
+msgid "placeholder"
+msgstr ""
+
+#: resources/assets/lang/temp.php:744
+msgid "Filter Encounter by doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:746
+msgid "Filter Encounter by clinic name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:748
+msgid "Filter Encounter by patient name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:750
+msgid "Filter Encounter by date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:752
+msgid "Edit prescription"
+msgstr ""
+
+#: resources/assets/lang/temp.php:757
+msgid "Problem type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:758
+msgid "Problem start date is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:759
+msgid "Problem start date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:760
+msgid "Problem end date"
+msgstr ""
+
+#: resources/assets/lang/temp.php:761
+msgid "Problem outcome"
+msgstr ""
+
+#: resources/assets/lang/temp.php:763
+msgid "Add medical problems"
+msgstr ""
+
+#: resources/assets/lang/temp.php:764
+msgid "Select problem type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:766
+msgid "Select problem outcome"
+msgstr ""
+
+#: resources/assets/lang/temp.php:767
+msgid "Edit medical record"
+msgstr ""
+
+#: resources/assets/lang/temp.php:770
+msgid "DESCRIPTION"
+msgstr ""
+
+#: resources/assets/lang/temp.php:771
+msgid "END DATE"
+msgstr ""
+
+#: resources/assets/lang/temp.php:772
+msgid "OUTCOME"
+msgstr ""
+
+#: resources/assets/lang/temp.php:773
+msgid "PROBLEM TYPE"
+msgstr ""
+
+#: resources/assets/lang/temp.php:776
+msgid "Medical record not found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:777
+msgid "Enter Medical Record description"
+msgstr ""
+
+#: resources/assets/lang/temp.php:780
+msgid "Reports"
+msgstr ""
+
+#: resources/assets/lang/temp.php:781
+msgid "Filter By"
+msgstr ""
+
+#: resources/assets/lang/temp.php:782
+msgid "Clinic Revenue (Overall)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:783
+msgid "Clinic Revenue (Detail)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:784
+msgid "Clinic Doctor Revenue"
+msgstr ""
+
+#: resources/assets/lang/temp.php:785
+msgid "Prescription Module"
+msgstr ""
+
+#: resources/assets/lang/temp.php:786
+msgid "Report is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:789
+msgid "Select Filter by"
+msgstr ""
+
+#: resources/assets/lang/temp.php:790
+msgid "select"
+msgstr ""
+
+#: resources/assets/lang/temp.php:794
+msgid "Username or Email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:795
+msgid "Please fill in this form to create an account."
+msgstr ""
+
+#: resources/assets/lang/temp.php:798
+msgid "Service List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:799
+msgid "Service category"
+msgstr ""
+
+#: resources/assets/lang/temp.php:800
+msgid "Service category is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:801
+msgid "Note=> Type and press enter to add new category"
+msgstr ""
+
+#: resources/assets/lang/temp.php:802
+msgid "Service Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:803
+msgid "Service name is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:804
+msgid "Service name length should be between 2 to 100 character"
+msgstr ""
+
+#: resources/assets/lang/temp.php:805 resources/assets/lang/temp.php:831
+msgid "Charges"
+msgstr ""
+
+#: resources/assets/lang/temp.php:806
+msgid "service charge from service module. "
+msgstr ""
+
+#: resources/assets/lang/temp.php:807
+msgid "Service charges is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:808
+msgid "Service charges should be between 0 to 10000000000"
+msgstr ""
+
+#: resources/assets/lang/temp.php:809
+msgid "Select all"
+msgstr ""
+
+#: resources/assets/lang/temp.php:811 resources/assets/lang/temp.php:812
+msgid "Select service category"
+msgstr ""
+
+#: resources/assets/lang/temp.php:813
+msgid "Enter service name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:814
+msgid "Enter charges"
+msgstr ""
+
+#: resources/assets/lang/temp.php:817
+msgid " Select status"
+msgstr ""
+
+#: resources/assets/lang/temp.php:818
+msgid " SR. NO"
+msgstr ""
+
+#: resources/assets/lang/temp.php:819
+msgid " Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:820
+msgid " Clinic Name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:825
+msgid "Filter service by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:826
+msgid "Filter service by doctor"
+msgstr ""
+
+#: resources/assets/lang/temp.php:827
+msgid "Filter Service by price"
+msgstr ""
+
+#: resources/assets/lang/temp.php:833
+msgid "Category"
+msgstr ""
+
+#: resources/assets/lang/temp.php:838
+msgid "Invoice id =>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:839
+msgid "Created at =>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:840
+msgid "Payment Status =>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:843
+msgid "Patient details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:844
+msgid "Amount due"
+msgstr ""
+
+#: resources/assets/lang/temp.php:846
+msgid "Service is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:847
+msgid "Price is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:848
+msgid "Price must be greater then zero"
+msgstr ""
+
+#: resources/assets/lang/temp.php:849
+msgid "Price must be between 0 to 1000000000000000000"
+msgstr ""
+
+#: resources/assets/lang/temp.php:850
+msgid "Quantity is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:851
+msgid "Please add bill items"
+msgstr ""
+
+#: resources/assets/lang/temp.php:852
+msgid "Bill total is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:853
+msgid "Discount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:854
+msgid "Discount in amount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:855
+msgid "Discount is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:856
+msgid "Discount must be greater then zero"
+msgstr ""
+
+#: resources/assets/lang/temp.php:857
+msgid "Discount must be less then total bill amount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:858
+msgid "Payable Amount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:859
+msgid "Bill title"
+msgstr ""
+
+#: resources/assets/lang/temp.php:860
+msgid "Bill title is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:861
+msgid "Bill items"
+msgstr ""
+
+#: resources/assets/lang/temp.php:862
+msgid "Grand total"
+msgstr ""
+
+#: resources/assets/lang/temp.php:863
+msgid "Grand total is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:864
+msgid "Print bill"
+msgstr ""
+
+#: resources/assets/lang/temp.php:865
+msgid "Billing records"
+msgstr ""
+
+#: resources/assets/lang/temp.php:866
+msgid "Add bill"
+msgstr ""
+
+#: resources/assets/lang/temp.php:868
+msgid "Encounter close"
+msgstr ""
+
+#: resources/assets/lang/temp.php:869
+msgid "Bill details"
+msgstr ""
+
+#: resources/assets/lang/temp.php:870
+msgid "Other information"
+msgstr ""
+
+#: resources/assets/lang/temp.php:871
+msgid "Patients Encounter List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:872
+msgid "Bills"
+msgstr ""
+
+#: resources/assets/lang/temp.php:873
+msgid "Payment Setting"
+msgstr ""
+
+#: resources/assets/lang/temp.php:874
+msgid ""
+"Note=> If Woocommerce payment enable then Appointments Email, Sms and Zoom "
+"Link will we send after payment completed and google calendar event will we  "
+"added after payment complete.when patient book appointment Service will "
+"added as woocommerce product(if already not exists) after patient is "
+"redirect to cart page."
+msgstr ""
+
+#: resources/assets/lang/temp.php:875
+msgid "Woocommerce Payment Gateway"
+msgstr ""
+
+#: resources/assets/lang/temp.php:876
+msgid "Amount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:877
+msgid "Items"
+msgstr ""
+
+#: resources/assets/lang/temp.php:878 resources/assets/lang/temp.php:1008
+msgid "Notes"
+msgstr ""
+
+#: resources/assets/lang/temp.php:879
+msgid ""
+"Services will be used for invoicing and other future payment related "
+"implementations"
+msgstr ""
+
+#: resources/assets/lang/temp.php:880
+msgid "Set currency prefix,postfix and decimals points."
+msgstr ""
+
+#: resources/assets/lang/temp.php:881 resources/assets/lang/temp.php:885
+#: resources/assets/lang/temp.php:1132
+msgid "Select service"
+msgstr ""
+
+#: resources/assets/lang/temp.php:889
+msgid "Enter total_amount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:890
+msgid "Enter discount"
+msgstr ""
+
+#: resources/assets/lang/temp.php:892
+msgid "Add item"
+msgstr ""
+
+#: resources/assets/lang/temp.php:893
+msgid "Add Bill Item"
+msgstr ""
+
+#: resources/assets/lang/temp.php:894 resources/assets/lang/temp.php:1013
+msgid "Close Form"
+msgstr ""
+
+#: resources/assets/lang/temp.php:896
+msgid "ACTUAL AMOUNT"
+msgstr ""
+
+#: resources/assets/lang/temp.php:898
+msgid "DISCOUNT"
+msgstr ""
+
+#: resources/assets/lang/temp.php:907
+msgid "General"
+msgstr ""
+
+#: resources/assets/lang/temp.php:908
+msgid "Holidays"
+msgstr ""
+
+#: resources/assets/lang/temp.php:909
+msgid "Configurations"
+msgstr ""
+
+#: resources/assets/lang/temp.php:910
+msgid "Email Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:911
+msgid "SMS Template"
+msgstr ""
+
+#: resources/assets/lang/temp.php:912
+msgid "Listings"
+msgstr ""
+
+#: resources/assets/lang/temp.php:913
+msgid "Custom Field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:914
+msgid "Payment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:915
+msgid ""
+"New refined settings with various settings like email, invoice, currency, "
+"etc."
+msgstr ""
+
+#: resources/assets/lang/temp.php:916
+msgid " Pro Settings "
+msgstr ""
+
+#: resources/assets/lang/temp.php:917
+msgid "Language Settings"
+msgstr ""
+
+#: resources/assets/lang/temp.php:918
+msgid "Select Option"
+msgstr ""
+
+#: resources/assets/lang/temp.php:920
+msgid "Enter your ACCOUNT SID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:921
+msgid "Enter your AUTH TOKEN"
+msgstr ""
+
+#: resources/assets/lang/temp.php:922
+msgid "Enter your to number"
+msgstr ""
+
+#: resources/assets/lang/temp.php:923
+msgid "Patient etting"
+msgstr ""
+"\n"
+"Réglage du patient"
+
+#: resources/assets/lang/temp.php:927
+msgid "Site Logo"
+msgstr ""
+
+#: resources/assets/lang/temp.php:928
+msgid "Site Loader"
+msgstr ""
+
+#: resources/assets/lang/temp.php:929
+msgid "Language"
+msgstr ""
+
+#: resources/assets/lang/temp.php:930
+msgid "Theme color"
+msgstr ""
+
+#: resources/assets/lang/temp.php:931
+msgid "RTL Mode"
+msgstr ""
+
+#: resources/assets/lang/temp.php:932
+msgid "on"
+msgstr ""
+
+#: resources/assets/lang/temp.php:933
+msgid "Twilo SMS Configration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:934
+msgid "ACCOUNT SID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:935
+msgid "AUTH TOKEN"
+msgstr ""
+
+#: resources/assets/lang/temp.php:936
+msgid "PHONE NUMBER (optional)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:937
+msgid "Twilo SMS guide"
+msgstr ""
+
+#: resources/assets/lang/temp.php:938
+msgid "Step 1 =>  You can sign up for a free Twilio trial account here"
+msgstr ""
+
+#: resources/assets/lang/temp.php:939
+msgid "Twilo SMS portal"
+msgstr ""
+
+#: resources/assets/lang/temp.php:940
+msgid "Step 2 => To get the Twilio CLI connected to your account. Visit"
+msgstr ""
+
+#: resources/assets/lang/temp.php:941
+msgid "get console"
+msgstr ""
+
+#: resources/assets/lang/temp.php:942
+msgid ""
+"and you’ll find your unique Account SID and Auth Token to provide to the CLI."
+msgstr ""
+
+#: resources/assets/lang/temp.php:943
+msgid ""
+"Step 3=> Copy and Paste ACCOUNT SID  and AUTH TOKEN and click on save button "
+"and here you go."
+msgstr ""
+
+#: resources/assets/lang/temp.php:944
+msgid ""
+"Step 4 (Optional) => To get your first Twilio phone number for sending sms. "
+"Visit"
+msgstr ""
+
+#: resources/assets/lang/temp.php:945
+msgid "head on over to the console"
+msgstr ""
+
+#: resources/assets/lang/temp.php:946
+msgid ""
+"and you will get phone number to send SMS if you dont want any particular "
+"number to send message use your SID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:947
+msgid "Add New Langauge"
+msgstr ""
+
+#: resources/assets/lang/temp.php:948
+msgid "Translate"
+msgstr ""
+
+#: resources/assets/lang/temp.php:949
+msgid "Custom Langauge Translation"
+msgstr ""
+
+#: resources/assets/lang/temp.php:950
+msgid "translating..."
+msgstr ""
+
+#: resources/assets/lang/temp.php:951
+msgid "Select Color"
+msgstr ""
+
+#: resources/assets/lang/temp.php:952
+msgid "Connect with google"
+msgstr ""
+
+#: resources/assets/lang/temp.php:953
+msgid "Please refer the following link for the setup."
+msgstr ""
+
+#: resources/assets/lang/temp.php:954
+msgid "Select Language"
+msgstr ""
+
+#: resources/assets/lang/temp.php:957
+msgid "Label name is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:958
+msgid "Label name allow only alphabetic value"
+msgstr ""
+
+#: resources/assets/lang/temp.php:959
+msgid "Where it look like"
+msgstr ""
+
+#: resources/assets/lang/temp.php:960
+msgid "It shows in doctor creation form"
+msgstr ""
+
+#: resources/assets/lang/temp.php:961
+msgid "It shows in patient encounter dashboard"
+msgstr ""
+
+#: resources/assets/lang/temp.php:962
+msgid "It shows in patient creation form"
+msgstr ""
+
+#: resources/assets/lang/temp.php:963
+msgid "Filed name =>esc_html__("
+msgstr ""
+
+#: resources/assets/lang/temp.php:964
+msgid "Invalid label name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:965
+msgid "Label is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:966
+msgid "Field name is already used."
+msgstr ""
+
+#: resources/assets/lang/temp.php:967
+msgid "Input Type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:968
+msgid "Input type is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:969
+msgid "Placeholder"
+msgstr ""
+
+#: resources/assets/lang/temp.php:970
+msgid "Options"
+msgstr ""
+
+#: resources/assets/lang/temp.php:971
+msgid "Validation"
+msgstr ""
+
+#: resources/assets/lang/temp.php:972
+msgid "Mandatory field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:973
+msgid "Custom Field List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:974
+msgid "Add custom field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:979
+msgid "Enter field label"
+msgstr ""
+
+#: resources/assets/lang/temp.php:980
+msgid "Select input type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:981
+msgid "Enter placeholder"
+msgstr ""
+
+#: resources/assets/lang/temp.php:982
+msgid "Add this as new option"
+msgstr ""
+
+#: resources/assets/lang/temp.php:983
+msgid "Search or add a option"
+msgstr ""
+
+#: resources/assets/lang/temp.php:986
+msgid "Field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:987
+msgid "Filter custom field by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:989
+msgid "Filter custom field by type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:991
+msgid "Add field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:992
+msgid "Add new field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:994
+msgid "Doctor profile data not found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:995
+msgid "Edit custom field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:996
+msgid "Edit field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1001 resources/assets/lang/temp.php:1147
+msgid "Record not found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1002
+msgid "Save field"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1003 resources/assets/lang/temp.php:1073
+msgid "Label"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1006
+msgid "Problems"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1007
+msgid "Observations"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1010
+msgid "Add Prescription"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1012
+msgid "Clinical Detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1014
+msgid "Add encounter"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1017
+msgid "Previous"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1019
+msgid "Session doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1021
+msgid "No sessions found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1022
+msgid "Time slot (in minute)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1023
+msgid "Open time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1024
+msgid "Close time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1025
+msgid "Session demo"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1026
+msgid "Invalid time slot found. invalid slot time is "
+msgstr ""
+
+#: resources/assets/lang/temp.php:1027
+msgid "Doctor list"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1029 resources/assets/lang/temp.php:1203
+msgid "Prev"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1030
+msgid "Enter your current password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1045 resources/assets/lang/temp.php:1135
+msgid "Enter password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1054
+msgid "Select start time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1055
+msgid "Select end time"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1058
+msgid "Send test email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1059
+msgid "Test sender email is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1060
+msgid "Test content"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1061
+msgid "Test content is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1062
+msgid "Enable/Disable email notification."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1063
+msgid "403 | forbidden"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1064
+msgid "Enter emailId"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1067
+msgid "Listing Data"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1069
+msgid "New Enhanced Filters and view"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1070
+msgid "The booking widget is updated"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1071
+msgid "Visiting Type is replaced with services (please check service tab)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1072
+msgid "Appointment check-in and check-out flow updated"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1074
+msgid "Add List Data"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1075
+msgid "Enter data label"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1076 resources/assets/lang/temp.php:1077
+msgid "Select type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1082
+msgid "Filter by name"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1084
+msgid "Filter by type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1086
+msgid "Filter by status"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1090
+msgid "Doctor not found"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1091
+msgid "Zoom configuration"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1093
+msgid "Date is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1094
+msgid "Current password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1095
+msgid "Current password is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1096 resources/assets/lang/temp.php:1184
+msgid "New password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1097
+msgid "Appointment info"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1098
+msgid "Available slots"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1099
+msgid "Service Detail"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1100
+msgid "No service det11ail found."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1101
+msgid "Book Now"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1102
+msgid "Registration successful please check your email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1103
+msgid "more detail ..."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1104
+msgid "Username or email is required."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1105
+msgid "New password is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1106 resources/assets/lang/temp.php:1179
+msgid "Confirm password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1107
+msgid "Confirm password is required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1108
+msgid "New password and Confirm password doest match"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1109
+msgid "Home"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1110
+msgid "Change Password "
+msgstr ""
+
+#: resources/assets/lang/temp.php:1111
+msgid "Logging out ...."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1112
+msgid "Total Visits"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1113
+msgid "Upcoming Visits"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1114
+msgid "Example Component"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1115
+msgid ""
+"Other than this many more fine-tunings and tweaks are done. Please email at"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1116
+msgid "hello@iqonic.design"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1117
+msgid "if you face any issues with the update."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1118
+msgid ""
+"After great user feedback, We have some major changes released in this "
+"update."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1119
+msgid "Important! Major Version update!! (V2.0.1)"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1120
+msgid "Replace appointment"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1121
+msgid "option as"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1122
+msgid "service type"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1123
+msgid "you have to add charges for"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1124
+msgid "Can Manage individual doctors"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1125
+msgid "Send test Email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1126
+msgid "Morning"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1127
+msgid "Evening"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1129
+msgid "Enter description"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1130
+msgid "Clinics"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1133
+msgid "Enter username or email"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1134
+msgid "Enter firstname"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1136
+msgid "Enter lastname"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1139
+msgid "Enter current password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1140
+msgid "Enter new password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1141 resources/assets/lang/temp.php:1183
+msgid "Enter confirm password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1142
+msgid "Patient Info"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1143
+msgid "Select doctor to get 11appointments slots."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1144 resources/assets/lang/temp.php:1172
+msgid "Sorry, No available slots for this doctor on this day."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1148
+msgid "Widget is only for patient"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1149
+msgid "Summary"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1151
+msgid "Physio"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1169
+msgid "No appointment found."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1171
+msgid "Select doctor to get appointments slots."
+msgstr ""
+
+#: resources/assets/lang/temp.php:1176
+msgid "Personal Info"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1180
+msgid "Enter your old password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1181
+msgid "Enter your new password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1182
+msgid "Enter your confirm password"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1187
+msgid "Enter api key"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1188
+msgid "Enter api secret"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1191
+msgid "Question List"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1193
+msgid "Add Question"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1194
+msgid "Question"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1195
+msgid "Filter Health Question by Question"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1196
+msgid "Clinic ID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1197
+msgid "Filter Health Question by Clinic ID"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1198
+msgid "Enter Question "
+msgstr ""
+
+#: resources/assets/lang/temp.php:1199
+msgid "Question is Required"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1202
+msgid "Next"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1204
+msgid "Rows per page"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1205
+msgid "of"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1206
+msgid "ALL"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1207
+msgid "Search Table"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1208
+msgid "Page"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1211
+msgid "Google Event title"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1212
+msgid "Google Event Description"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1217
+msgid "Register"
+msgstr ""
+
+#: resources/assets/lang/temp.php:1218
+msgid "Forget Password ?"
+msgstr ""
+
+#: utils/kc_helpers.php:789
+msgid "Doctor Registration"
+msgstr ""
+
+#: utils/kc_helpers.php:792
+msgid "Patient Registration"
+msgstr ""
+
+#: utils/kc_helpers.php:795
+msgid "Receptionist Registration"
+msgstr ""
+
+#: utils/kc_helpers.php:801
+msgid "New Appointment Booking"
+msgstr ""
+
+#: utils/kc_helpers.php:804
+msgid "Telemed Appointment Booking"
+msgstr ""
+
+#: utils/kc_helpers.php:807
+msgid "Clinic Admin Registration"
+msgstr ""
+
+#: utils/kc_helpers.php:810
+msgid "Appointment Payment"
+msgstr ""
+
+#: utils/kc_helpers.php:813
+msgid "Doctor Telemed Appointment Booking"
+msgstr ""
+
+#: utils/kc_helpers.php:816
+msgid "Welcome To Clinic "
+msgstr ""

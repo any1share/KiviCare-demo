@@ -1,0 +1,317 @@
+
+:root {
+    --primary: #7093E5;
+    --background-color: #F8FAFC;
+    --white: #ffffff;
+    --heading-color: #F68685;
+    --text-color: #525F7F;
+}
+.body{
+    background-color: var(--background-color) ;
+    margin: 0;
+    font-family: Heebo;
+    /*border: 1px solid #000;*/
+}
+.heading1 {
+    font-size: 2em;
+    margin: unset ;
+    font-family: Heebo;
+    line-height:unset;
+}
+.heading4 {
+    font-size: 1em;
+    color: var(--heading-color);
+    margin:unset;
+    font-family: Heebo;
+    line-height:unset;
+}
+.heading3{
+    font-size: 1.17em;
+    margin: unset !important;
+    font-family: Heebo;
+    line-height:unset;
+}
+.paragraph{
+    margin: 8px;
+    color: var(--text-color);
+}
+.details .paragraph{
+    margin: unset !important;
+}
+.day{
+    color: var(--heading-color);
+    font-weight: bold;
+}
+.column-doctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.column-doctor::before{
+    content: '';
+    position: absolute;
+    background-color: var(--primary);
+    right: 73%;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    margin-left: 1rem
+}
+.image{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.details{
+    padding: 2rem 0;
+    margin-left: 6%;
+    width: 45%;
+}
+.flex-container {
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+.flex-container.clinic-address{
+    align-items: unset;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px 0px;
+}
+.grid-container > div {
+    background-color: var(--white);
+    border: 1px solid var(--text-color);
+    text-align: center;
+}
+.kivi-pagination{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-header{
+    width: 45%;
+}
+.detail-data{
+    width: 100%;
+}
+.app{
+    font-size: 20px;
+}
+.schedule{
+    font-size: 20px;
+    font-weight: bold;
+}
+.appoin{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.book_button {
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 100%;
+}
+.numup{
+    margin-top: 40px;
+}
+.column::before{
+    content: '';
+    position: absolute;
+    background-color: var(--primary);
+    right: 73%;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+@media (max-width: 1024px) {
+    .column-doctor{
+        flex-direction: column;
+        height: unset;
+        align-items: unset;
+    }
+    .column {
+        flex-direction: column;
+        height: unset;
+        align-items: unset;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        margin-top: 6%;
+    }
+    .img {
+        width: 150px;
+        height: 150px ;
+        margin: unset;
+    }
+    .details{
+        padding: 6%;
+        margin: unset;
+        width: unset;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px 0;
+    }
+    .column::before {
+        content: '';
+        position: absolute;
+        background-color: var(--primary);
+        right: 0;
+        top: 0%;
+        bottom: 90%;
+        left: 0;
+        height: 8%;
+        z-index: 0;
+    }
+    .column-doctor::before {
+        content: '';
+        position: absolute;
+        background-color: var(--primary);
+        right: 0;
+        top: 0%;
+        bottom: 90%;
+        left: 0;
+        height: 5%;
+        z-index: 0;
+    }
+    .header{
+        text-align: center;
+    }
+    .book_button {
+        background-color: var(--primary);
+        border: none;
+        color: var(--white);
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px 0px;
+        cursor: pointer;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .numup {
+        margin-top: 20px;
+    }
+    .book{
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .column::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0%;
+        bottom: 90%;
+        left: 0;
+        height: 12%;
+        z-index: 0;
+    }
+    .column-doctor::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0%;
+        bottom: 90%;
+        left: 0;
+        height: 10%;
+        z-index: 0;
+    }
+    .book{
+        text-align: center;
+    }
+    .image {
+        margin-top: 6%;
+        margin-left: 0;
+    }
+    .img{
+        width: 250px;
+        height: 250px ;
+    }
+}
+@media (min-width: 991.98px) and (max-width:1024px ) {
+    .column::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0%;
+        bottom: 90%;
+        left: 0;
+        height: 17%;
+        z-index: 0;
+    }
+    .column-doctor::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0%;
+        bottom: 90%;
+        left: 0;
+        height: 14%;
+        z-index: 0;
+    }
+    .book{
+        text-align: center;
+    }
+    .image {
+        margin-top: 6%;
+        margin-left: 0;
+    }
+    .img{
+        width: 300px;
+        height: 300px ;
+    }
+}
+@media (max-width: 576px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+.iq_kivicare_next_previous{
+   padding:0px 15px;
+    margin: unset;
+}
+
+.iq_kivicare_doctor_session-cell_title{
+    font-size: 13px;
+}
+
+.iq_kivicare_doctor_session-cell_value{
+    font-size: 11px;
+}
